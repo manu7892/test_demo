@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>divs</title>
+    <link rel="stylesheet" href="styles.css">
+    <style media="screen">
+    body{
+margin: 0 0;
+}
+
+.heading{
+width: 100%;
+background-color: black;
+height: 130px;
+text-align: center;
+}
+
+.container{
+height: 700px;
+display: flex;
+}
+
+.left-container{
+background-color: grey;
+height: 700px;
+width: 20%;
+display: inline-block;
+}
+
+.right-container{
+background-color: blue;
+height: 700px;
+width: 60%;
+float: right;
+}
+
+.last-container{
+background-color: grey;
+height: 700px;
+width: 20%;
+}
+
+.bottom-container{
+background-color: black;
+height: 200px;
+width: 100%;
+}
+
+h3{
+color: white;
+margin: auto;
+font-size: 2.4rem;
+line-height: 3.1;
+}
+
+@media screen and (max-width: 525px) {
+.heading{
+  width: 100%;
+  background-color: black;
+  height: 100px;
+}
+
+h3{
+  color: white;
+  margin: auto;
+  font-size: 2rem;
+  line-height: 3;
+}
+}
+
+    </style>
+  </head>
+  <body>
+
+    <div class="heading">
+      <h3>PES Magazine</h3>
+    </div>
+
+    <div class="container">
+
+      <div class="left-container">
+
+      </div>
+
+      <div class="right-container">
+
+      </div>
+
+      <div class="last-container">
+
+      </div>
+
+    </div>
+
+    <div class="bottom-container">
+
+    </div>
+
+  </body>
+</html>
